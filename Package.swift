@@ -1,18 +1,16 @@
-// swift-tools-version: 5.7
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version: 5.9
 
 import PackageDescription
 
 let package = Package(
     name: "GenshinSDK",
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "GenshinSDK",
             targets: ["GenshinSDK"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/onevcat/Kingfisher", from: "8.0.0")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "GenshinSDK"),

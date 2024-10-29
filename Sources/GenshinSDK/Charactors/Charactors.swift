@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Charactors: String {
+public enum Characters: String {
     case mumu = "Mumu"
     case sensen = "Sensen"
     case ito = "Ito"
