@@ -1,7 +1,7 @@
 import Foundation
 
 public class GenshinSDK {
-    init() {
+    public init() {
         print("Hello from GenshinSDK")
     }
 }
