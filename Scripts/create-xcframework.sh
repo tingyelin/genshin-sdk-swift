@@ -76,5 +76,5 @@ cp -r $PACKAGE_NAME-iphoneos.xcarchive/dSYMs $PACKAGE_NAME.xcframework/ios-arm64
 
 zip -r "$PACKAGE_NAME.xcframework.zip" "$PACKAGE_NAME.xcframework"
 
-echo "Restoring Package.swift"
+echo "Restoringx Package.swift"
 restore_package_swift
