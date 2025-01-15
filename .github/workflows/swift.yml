@@ -22,7 +22,9 @@ jobs:
           xcode-version: latest-stable
 
     - name: Create XCFramework
-      run: ./Scripts/create-xcframework.sh
+      run: |
+        chmod +x ./Scripts/create-xcframework.sh
+        ./Scripts/create-xcframework.sh
             
     - name: Build
       run: swift build -v
