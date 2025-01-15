@@ -21,7 +21,7 @@ jobs:
       with:
           xcode-version: latest-stable
 
-    - name: Build
+    - name: Create XCFramework
       run: ./Scripts/create-xcframework.sh
             
     - name: Build
